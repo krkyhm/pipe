@@ -36,6 +36,26 @@ body {
     margin-bottom: 20px;
 }
 
+#hangerTypes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.hanger-type {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+
+.hanger-type:hover {
+    background-color: #e0e0e0;
+}
+
 label, input {
     display: block;
     margin: 10px 0;
